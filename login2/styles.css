@@ -6,7 +6,7 @@ body{
  margin:0;
  padding:0;
  font-family: sans-serif;
- background: linear-gradient(#30142b, #2772a1);
+ background: linear-gradient(#30142b, #A300FF);
 }
 .login-page {
   width: 400px;
@@ -41,7 +41,7 @@ body{
   
 }
 h2{
- color:#289bb8;
+ color:#A300FF;
 }
 
 
@@ -51,7 +51,7 @@ h2{
   font-size: 12px;
 }
 .form .message a {
-  color: #289bb8;
+  color: #A300FF;
   text-decoration: none;
 }
 .form .register-form {
@@ -61,7 +61,7 @@ h2{
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #289bb8;
+  color: #A300FF;
   font-size: 16px;
   text-decoration: none;
   overflow: hidden;
@@ -70,13 +70,13 @@ h2{
   letter-spacing: 2px
 }
 .btn:hover {
-  background: #289bb8;
+  background: #A300FF;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #289bb8,
-              0 0 25px #289bb8,
-              0 0 50px #289bb8,
-              0 0 100px #289bb8;
+  box-shadow: 0 0 5px #A300FF,
+              0 0 25px #A300FF,
+              0 0 50px #A300FF,
+              0 0 100px #A300FF;
 }
 
 .btn span {
@@ -89,7 +89,7 @@ h2{
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #289bb8);
+  background: linear-gradient(90deg, transparent, #A300FF);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -107,7 +107,7 @@ h2{
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #289bb8);
+  background: linear-gradient(180deg, transparent, #A300FF);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s
 }
@@ -126,7 +126,7 @@ h2{
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #289bb8);
+  background: linear-gradient(270deg, transparent, #A300FF);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
@@ -145,7 +145,7 @@ h2{
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #289bb8);
+  background: linear-gradient(360deg, transparent, #A300FF);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s
 }
