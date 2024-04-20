@@ -1,6 +1,6 @@
 # Páginas para Desenvolvimento Web
 
-Bem-vindo ao repositório de Páginas para Desenvolvimento Web! Aqui você encontrará uma variedade de páginas web prontas para uso ou modelos que podem ser personalizados para atender às suas necessidades de desenvolvimento web.
+Repositório de Páginas para Desenvolvimento Web!
 
 ## Estrutura do Repositório
 
