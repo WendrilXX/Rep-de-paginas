@@ -2,16 +2,6 @@
 
 Repositório de Páginas para Desenvolvimento Web!
 
-## Estrutura do Repositório
-
-1. **HTML:** Esta pasta contém páginas HTML básicas prontas para uso ou para servir como ponto de partida para seus projetos. Você encontrará modelos para páginas de portfólio, páginas de contato, páginas de produtos e muito mais.
-
-2. **CSS:** Aqui você encontrará arquivos CSS que podem ser utilizados para estilizar as páginas HTML disponíveis neste repositório. Os estilos incluem layouts responsivos, esquemas de cores pré-definidos e estilos de tipografia.
-
-3. **JavaScript:** Esta pasta contém scripts JavaScript que adicionam interatividade e funcionalidade às páginas HTML. Os scripts incluem funcionalidades como carregamento de dados assíncrono, validação de formulários e animações de página.
-
-4. **Imagens:** Nesta pasta, você encontrará imagens de amostra que podem ser usadas em suas páginas web. As imagens são fornecidas em diferentes formatos e tamanhos para atender às necessidades do seu projeto.
-
 ## Como Usar
 
 1. Escolha a página HTML desejada na pasta `HTML`.
