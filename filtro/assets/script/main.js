@@ -1,7 +1,7 @@
 const apiKey = '5d3740a5fc6dfa4e862bede23e6d4fdb'; // Substituam 'a chave de vcs aqui para não extourar o limite da API do TMDB' 
 
 
-const apiUrl = 'https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=pt-BR&sort_by=popularity.desc;'
+const apiUrl = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=pt-BR&sort_by=popularity.desc`;
 
 document.addEventListener('DOMContentLoaded', () => {
     fetch(apiUrl)
@@ -25,7 +25,7 @@ function createMovieCard(movie) {
     title.textContent = movie.title;
 
     const image = document.createElement('img');
-    image.src = 'https://image.tmdb.org/t/p/w500${movie.poster_path};'
+    image.src = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
     image.alt = movie.title;
 
     card.appendChild(image);
