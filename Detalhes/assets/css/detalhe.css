@@ -1,0 +1,52 @@
+body {
+     margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #0D0D0D, #5F0E8F);
+    color: #F2F2F2;
+    flex-wrap: wrap;
+    display: flex;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#movieDetails {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #070707;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.genres {
+    font-style: italic;
+}
+.movie-poster {
+    max-width: 40%;
+    height: auto;
+}
+
