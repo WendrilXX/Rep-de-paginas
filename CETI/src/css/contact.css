@@ -1,0 +1,40 @@
+.contact-section {
+    padding: 60px 0; /* Espaçamento superior e inferior */
+    text-align: center; /* Centraliza o texto da seção */
+  }
+  
+  .contact-grid {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza os cartões horizontalmente */
+    gap: 20px; /* Espaçamento uniforme entre os cartões */
+    flex-wrap: wrap; /* Permite que os cartões quebrem linha em telas menores */
+  }
+  
+  .contact-card {
+    background: var(--background-light);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Largura máxima dos cartões */
+    flex: 1 1 300px; /* Mantém cartões flexíveis */
+    text-align: center; /* Centraliza o conteúdo interno */
+  }
+  
+  .contact-card .icon {
+    width: 50px; /* Tamanho fixo dos ícones */
+    height: 50px;
+    color: var(--primary-blue); /* Cor do ícone */
+    margin-bottom: 10px; /* Espaço entre o ícone e o título */
+  }
+  
+  .contact-card h3 {
+    font-size: 1.25em;
+    margin: 10px 0;
+  }
+  
+  .contact-card p {
+    font-size: 0.9em;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+  
